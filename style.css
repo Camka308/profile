@@ -1,0 +1,77 @@
+/* font and colors */
+body{
+  color: #454545;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+  font-size: 60px;
+  letter-spacing: 2;
+}
+
+p{
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+  font-weight: lighter;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* h3{
+  font-size: 30px;
+  color: #FF9292;
+  font-family: 'Lobster', cursive;
+} */
+
+
+/* design */
+
+/* .team{
+  border-radius: 50%;
+} */
+
+#titre {
+  background-image: url("images/fond.jpeg");
+  background-size: cover;
+  color: whitesmoke;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+#titre p{
+  font-weight: 300;
+  letter-spacing: 2;
+  font-size: 25px;
+}
+
+
+.photos {
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px lightgrey;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
